@@ -1,0 +1,77 @@
+﻿body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Crushed', cursive; }
+
+div#main {
+  margin-top: 70px; }
+
+div#displayDiv {
+  width: 120vh;
+  height: 80vh;
+  margin: 0 auto; }
+
+i#playButton {
+  margin-top: 10px;
+  margin-left: 100px;
+  cursor: default; }
+
+li#volumeSlider {
+  margin-top: 14px;
+  margin-left: 20px; }
+
+li#resetButton {
+  margin-top: 5px;
+  margin-left: 40px; }
+
+div#cards {
+  height: 15vh; }
+
+div#card {
+  background: #555;
+  height: 13vh;
+  margin: 0.5vh;
+  position: relative;
+  z-index: 1;
+  cursor: default;
+  line-height: 125%; }
+
+div#expression {
+  pointer-events: none; }
+
+div#lane {
+  padding-top: 1%;
+  width: 100%;
+  height: 100%;
+  background: #777; }
+
+div#lane.trashBin {
+  background: #a55; }
+
+div#laneAndIcon {
+  height: 60vh;
+  position: relative; }
+
+div#laneIcon {
+  position: absolute;
+  left: 7vh;
+  top: 25vh;
+  z-index: 0; }
+
+div#laneTips {
+  position: absolute;
+  z-index: 0;
+  top: 0; }
+
+canvas#byteBeatCanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none; }

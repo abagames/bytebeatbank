@@ -1,0 +1,12 @@
+{
+  "name": "ByteBeatBank",
+  "version": "1.0.0",
+  "description": "sound generator with bytebeat cards",
+  "main": "bytebeatbank.js",
+  "author": "ABA Games",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "",
+    "grunt-typescript": ""
+  }
+}
